@@ -28,7 +28,6 @@ from contact import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('contact/', views.contact_us, name='contact'),
     path('', include('post.urls')),
     
  
